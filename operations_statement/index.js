@@ -56,3 +56,4 @@ switch (value) {
   case 2:
     console.log("you entered number 2");
 }
+console.log("Hello world");
