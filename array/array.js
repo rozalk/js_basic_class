@@ -66,3 +66,13 @@ const ex = [
 
 const newAr = ex.sort((a, b) => a.age - b.age);
 console.log(newAr);
+
+const exx = [
+  { name: "ram", age: 20 },
+  { name: "hari", age: 10 },
+  { name: "shyam", age: 22 },
+];
+
+const newArr = exx.map((obj) => obj).sort((a, b) => a.age - b.age);
+
+console.log(newArr);

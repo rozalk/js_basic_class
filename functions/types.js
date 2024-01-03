@@ -56,6 +56,7 @@ const addit = (a, b) => a + b;
 //===============
 
 const additi = (a, b) => {
+  console.log(a + b);
   return a + b;
 };
 
