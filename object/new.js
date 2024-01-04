@@ -23,6 +23,7 @@ const arr = [
   { name: "hari", age: 10 },
   { name: "shyam", age: 15 },
 ];
+console.log(arr.shift());
 
 const obj = {
   name: "a",
@@ -40,3 +41,19 @@ console.log(rest);
 
 //write a js function that returns true if the value is palindrome else false?
 //EG: MOM//IS Palindrome...
+
+const isPalindrome = (value) => {
+  const lowvalue = value.toLowerCase(); //to lower case to compare values...
+
+  const reversed = lowvalue.split("").reverse().join(""); //made reverse...
+  return reversed;
+};
+// result = isPalindrome("mom");
+// console.log(result);
+console.log(isPalindrome("MOM"));
+console.log(isPalindrome("101"));
+
+//write a JS function that accepts a string as a parameter
+//and converts the first letter of each word into uppercase.
+//Example string :'the quick brown fox'
+//Expected output: "The Quick Brown Fox"
