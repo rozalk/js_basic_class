@@ -6,7 +6,7 @@
 {name:"harry",roles:["guest"]};
 {name:"sita ",roles:["admin","vendor"]}
 ]
-
+ 
 */
 const user = [
   { name: "raktim", roles: ["admin"] },

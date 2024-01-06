@@ -1,0 +1,17 @@
+p {
+  font-size: 10rem;
+  font-style: italic;
+  color: red;
+}
+
+div {
+  color: blue;
+}
+
+.bt {
+  color: brown;
+}
+
+#eng {
+  color: black;
+}
