@@ -1,4 +1,4 @@
-p {
+/* p {
   font-size: 10rem;
   font-style: italic;
   color: red;
@@ -14,4 +14,15 @@ div {
 
 #eng {
   color: black;
+} */
+table,
+td,
+tr {
+  border-collapse: collapse;
+  border: 1px solid black;
 }
+/* 
+
+tailwind css //Framework css
+react bootstrap //react framework
+w3school  */

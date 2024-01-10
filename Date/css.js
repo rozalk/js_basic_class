@@ -13,7 +13,7 @@ console.log(now);
 
 console.log(today.getDay());
 console.log(today.getFullYear());
-
+console.log(today.getMonth());
 //write a functions that accept the date and time show which day as date
 
 const dayFinder = (date) => {
@@ -24,7 +24,9 @@ const dayFinder = (date) => {
 const res = dayFinder("2024-01-05"); //call...
 console.log(res); //for chckingg...
 
-switch (res) {
+switch (
+  res //to show day...
+) {
   case 0:
     console.log("Sunday");
     break;
@@ -50,5 +52,5 @@ switch (res) {
     break;
 
   default:
-    console.log("Not saturday");
+    console.log("Invalid day");
 }
